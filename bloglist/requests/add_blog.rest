@@ -1,0 +1,12 @@
+POST http://localhost:3002/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1vaSIsImlkIjoiNjFkNzUzMWMwMDJkMWVlYTRmZWY2MzM5IiwiaWF0IjoxNjQxNTgzOTE2fQ.BBBar2N-Qk-gRnWpeJ2J2q8FBat3mih2tLlouokMbys
+
+{
+    "title": "Blogi2",
+    "author": "Jaakko",
+    "url": "www.jaakkoblogi2.com",
+    "likes": 5,
+    "user": "61d7531c002d1eea4fef6339"
+}
+
